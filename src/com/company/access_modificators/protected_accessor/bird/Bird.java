@@ -17,6 +17,7 @@ public class Bird extends Animal {
      */
     public void printCurrentRefference() {
         Bird bird = new Bird();
+        Bird bird1 = (Bird) new Animal();
 
         bird.printText();
         String text = bird.text;

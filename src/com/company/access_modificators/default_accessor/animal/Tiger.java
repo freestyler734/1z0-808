@@ -2,13 +2,18 @@ package com.company.access_modificators.default_accessor.animal;
 
 public class Tiger extends Animal {
 
-
+    /*
+     * члены родительского класса доступны,
+     * потому что классы расположены в одном пакете
+     */
     public void printInheritence() {
         String text = super.text;
         printText();
     }
 
-
+    /*
+     * родительские свойства объекта текущего класса доступны
+     */
     public void printCurrentRefference() {
         Tiger bird = new Tiger();
 
@@ -16,7 +21,9 @@ public class Tiger extends Animal {
         String text = bird.text;
     }
 
-
+    /*
+     * свойства объекта родительского класса доступны в этом классе
+     */
     public void printParentRefference() {
         Animal bird = new Tiger();
 

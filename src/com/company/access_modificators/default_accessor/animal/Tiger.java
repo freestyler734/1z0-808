@@ -1,5 +1,8 @@
 package com.company.access_modificators.default_accessor.animal;
 
+import static java.util.Arrays.*;
+import static java.util.Collections.*;
+
 public class Tiger extends Animal {
 
     /*

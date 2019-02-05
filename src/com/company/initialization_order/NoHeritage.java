@@ -21,11 +21,18 @@ public class NoHeritage {
         System.out.println("after creating object");
     }
 
+    static int i4 = 3;
+
+    {
+        System.out.println(i4);
+    }
+
     NoHeritage(){
         System.out.println("Constructor");
     }
 
-//    public static void main(String[] args) {
-//    }
+    public static void main(String[] args) {
+
+    }
 
 }

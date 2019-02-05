@@ -2,6 +2,8 @@ package com.company.access_modificators.protected_accessor.animal;
 
 public class Tiger extends Animal {
 
+    public int a = 1;
+
     /*
      * Метод имеет доступ наследуемым данным через механизм наследования
      */
